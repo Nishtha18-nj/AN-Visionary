@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Registration Form </title>
+</head>
+<body>
+    <h1 align="center">Register at AN Visionary! </h1>
+    <form align="center" action="mailto:anvisionary18@gmail.com" method="post" enctype="text/plain">
+       <table cellspacing="10" align="center">
+           <tr>
+               <td>
+                <label >Name of student:</label>
+            </td>
+                 <td>
+                     <input name="name" type="name"  autocomplete="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <label>Age of the Child: </label>
+                    </td>
+                    <td><input name="Age"></td>
+                </tr>
+               <tr>
+                   <td> 
+                       <label>Email of Parent :</label>
+                       </td>
+                       <td>
+                <input name="email" type"email" autocomplete="email">
+            </td>
+        </tr>
+              <tr>
+                  <td>
+                      <label>Phone Number (with country code):</label>
+                      </td>
+               <td> <input name="PhoneNumber" type="number" autocomplete="number">
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <label>Classes you want to opt for :</label>
+            </td>
+            <td>
+                <label for="SelectClass">Choose a Subject</label>
+                <br>
+
+                <select id="class-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="Art">ART</option>
+                    <option value="Craft">Craft</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Science">Science</option>
+                    <option value="Language Arts ">Language Arts </option>
+                    <option value="Origami">origami</option>
+                </select>
+
+            </td> </tr>
+            <tr>
+                <td>
+                    <label>Choose a date for FREE Demo : </label>
+                   
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                       Mention the timezone you follow: 
+                    </label>
+                    
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+<tr>
+    <td>
+        <label>
+            Do you want 1:1 sessions :
+        </label>
+    </td>
+   <td>
+       <select id="Yes-no">
+    <option value="">--Please choose an option--</option>
+    <option value="Yes">Yes</option>
+    <option value="No">No</option> 
+    <br>
+</td> 
+</tr>
+            <tr>
+                <td>
+                    <label>Any other Details:  </label>
+                </td>
+                <td>
+                    <br><textarea name="Other-details" rows="5" cols="50" >Mention the other details you want to specify...</textarea>.
+                </td>
+            </tr>
+          
+               </table> 
+               
+               <input type="submit" align="center">
+       
+       
+      
+        
+        </form>
+</body>
+</html>
